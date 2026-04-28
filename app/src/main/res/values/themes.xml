@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme -->
+    <style name="Theme.BookSport" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="colorOnSecondary">@color/green_dark</item>
+        <item name="android:statusBarColor">@color/green_primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <!-- No action bar variant -->
+    <style name="Theme.BookSport.NoActionBar" parent="Theme.BookSport">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash theme - fullscreen, no status bar -->
+    <style name="Theme.BookSport.Splash" parent="Theme.BookSport">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/green_primary</item>
+        <item name="android:navigationBarColor">@color/green_primary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

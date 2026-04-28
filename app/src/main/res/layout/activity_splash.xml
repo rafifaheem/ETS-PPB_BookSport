@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/green_primary">
+
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_logo"
+        android:scaleType="fitCenter"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tv_splash_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOKSPORT"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:letterSpacing="0.15"
+        android:layout_marginTop="16dp"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tv_splash_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan lapangan, main sekarang"
+        android:textSize="13sp"
+        android:textColor="#BDFFFFFF"
+        android:layout_marginTop="6dp"
+        android:alpha="0"/>
+
+</LinearLayout>
